@@ -1,0 +1,77 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 0.5vh 5vw;
+  background-color: #ffffff;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #aa0000  !important;
+  border: 1px solid #aa0000 !important;
+  border-radius: 2rem !important;
+  font-size: 0.8rem !important;
+  padding: 0.5rem 2rem !important;
+}
+.wrapper{
+  padding: 2rem;
+  text-align: center;
+}
+.solde{
+  text-align: center;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.main{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+.card{
+  padding: 2rem 8rem;
+  grid-column: span 3 / span 3;
+  display: grid;
+  gap: 2rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 1px solid #000000;
+  text-align: center;
+
+}
+
+button{
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #aa0000;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #ff0000;
+}
+
+input[type="number"]{
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+input[type="text"]{
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
